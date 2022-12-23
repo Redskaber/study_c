@@ -1,0 +1,47 @@
+***********************************************************************************
+### Linux 下GCC编译器编译过程
+
+```shell
+gcc	-E	hello.c	-o	hello.i			#1、预处理
+gcc	-S	hello.i	 -o	hello.s			#2、编译
+gcc	-c	hello.s	 -o	hello.o			#3、汇编
+gcc	hello.o	-o	hello_elf			                #4、链接
+```
+
+当有多个.c文件时，将多个.c文件分别生成.o目标文件,
+最后将多个.o文件一起链接成可执行文件
+***********************************************************************************
+
+[root@MyCould C]# ls
+24_c语言的编译过程.c  case_max.c  case_max.h  case_min.c  case_min.h
+[root@MyCould C]# gcc -E 24_c语言的编译过程.c  -o main.i
+[root@MyCould C]# gcc -S main.i -o main.s
+[root@MyCould C]# gcc -c main.s -o main.o
+[root@MyCould C]# gcc -E case_max.c -o max.i
+[root@MyCould C]# gcc -S max.i -o max.s
+[root@MyCould C]# gcc -c max.s -o max.o
+[root@MyCould C]# gcc -E case_min.c -o min.i
+[root@MyCould C]# gcc -S min.i -o min.s
+[root@MyCould C]# gcc -c min.s -o min.o
+[root@MyCould C]# gcc main.o max.o min.o -o case
+[root@MyCould C]# ll
+total 84
+-rw-r--r-- 1 root root   543 Dec 22 23:15 24_c语言的编译过程.c
+-rwxr-xr-x 1 root root 12944 Dec 22 23:28 case
+-rw-r--r-- 1 root root    59 Dec 22 23:15 case_max.c
+-rw-r--r-- 1 root root    50 Dec 22 23:15 case_max.h
+-rw-r--r-- 1 root root    59 Dec 22 23:15 case_min.c
+-rw-r--r-- 1 root root    50 Dec 22 23:15 case_min.h
+-rw-r--r-- 1 root root 16004 Dec 22 23:18 main.i
+-rw-r--r-- 1 root root  1768 Dec 22 23:18 main.o
+-rw-r--r-- 1 root root   859 Dec 22 23:18 main.s
+-rw-r--r-- 1 root root   214 Dec 22 23:25 max.i
+-rw-r--r-- 1 root root  1248 Dec 22 23:26 max.o
+-rw-r--r-- 1 root root   486 Dec 22 23:25 max.s
+-rw-r--r-- 1 root root   214 Dec 22 23:26 min.i
+-rw-r--r-- 1 root root  1248 Dec 22 23:27 min.o
+-rw-r--r-- 1 root root   486 Dec 22 23:26 min.s
+[root@MyCould C]# ./case
+min num: 10
+max num: 200
+[root@MyCould C]# 
