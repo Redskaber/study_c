@@ -144,13 +144,36 @@
     <ClCompile Include="14_打字游戏.c" />
     <ClCompile Include="15_函数的声明.c" />
     <ClCompile Include="16_函数的分块使用.c" />
+    <ClCompile Include="17_普通全局变量.c" />
+    <ClCompile Include="18_普通全局变量_分文件1.c" />
+    <ClCompile Include="19_静态全局变量.c" />
+    <ClCompile Include="20_静态全局变量.c" />
+    <ClCompile Include="21_普通局部变量与静态局部变量.c" />
+    <ClCompile Include="22_外部函数和内部函数.c" />
+    <ClCompile Include="23_外部函数与内部函数.c" />
+    <ClCompile Include="24_c语言的编译过程.c" />
+    <ClCompile Include="25_不带参数宏.c" />
+    <ClCompile Include="26_带参数宏.c" />
+    <ClCompile Include="27_选择性编译.c" />
+    <ClCompile Include="28_case_fun.c" />
+    <ClCompile Include="28_选择性编译.c" />
+    <ClCompile Include="case_min.c" />
+    <ClCompile Include="case_max.c" />
     <ClCompile Include="max.c" />
     <ClCompile Include="min.c" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="19_静态全局变量.h" />
+    <ClInclude Include="20_静态全局变量.h" />
+    <ClInclude Include="28_case_fun.h" />
+    <ClInclude Include="case_max.h" />
+    <ClInclude Include="case_min.h" />
     <ClInclude Include="max.h" />
     <ClInclude Include="min.h" />
+    <ClInclude Include="内部函数与外部函数.h" />
     <ClInclude Include="函数的声明.h" />
+    <ClInclude Include="普通全局变量.h" />
+    <ClInclude Include="普通全局变量_分文件.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

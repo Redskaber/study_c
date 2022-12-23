@@ -72,6 +72,51 @@
     <ClCompile Include="min.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="17_普通全局变量.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="18_普通全局变量_分文件1.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="19_静态全局变量.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="20_静态全局变量.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="21_普通局部变量与静态局部变量.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="22_外部函数和内部函数.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="23_外部函数与内部函数.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="24_c语言的编译过程.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="case_max.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="case_min.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="25_不带参数宏.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="27_选择性编译.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="26_带参数宏.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="28_选择性编译.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="28_case_fun.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="函数的声明.h">
@@ -81,6 +126,30 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="min.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="19_静态全局变量.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="20_静态全局变量.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="普通全局变量.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="普通全局变量_分文件.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="内部函数与外部函数.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="case_min.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="case_max.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="28_case_fun.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

@@ -2,7 +2,7 @@
 #include"max.h"
 #include"min.h"
 
-int main()
+int main16()
 {
 	max(10,5);	// 外部引入,h声明文件，c具体内容
 	min(23, 12);

@@ -1,3 +1,5 @@
+#include<stdio.h>
+
 void min(int a, int b)
 {
 	int z;

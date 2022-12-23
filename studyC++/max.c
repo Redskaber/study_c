@@ -1,3 +1,5 @@
+#include<stdio.h>
+
 void max(int a, int b)
 {
 	int z;
