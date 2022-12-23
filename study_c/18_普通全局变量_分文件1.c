@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include "普通全局变量.h"
 
-void fun()
+void other_fun()
 {
 	printf("void fun print global number: %d\n", number);	// 只要能通过c 编译就是可以 直接找到对应值的
 }

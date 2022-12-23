@@ -15,13 +15,13 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="00_study.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
     <ClCompile Include="01_数据类型相关的关键字.c">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="02_printf格式化输出.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="00_study.c">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="03_数据类型转换.c">
@@ -66,12 +66,6 @@
     <ClCompile Include="16_函数的分块使用.c">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="max.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="min.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="17_普通全局变量.c">
       <Filter>源文件</Filter>
     </ClCompile>
@@ -96,30 +90,57 @@
     <ClCompile Include="24_c语言的编译过程.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="25_不带参数宏.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="26_带参数宏.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="27_选择性编译.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="28_case_fun.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="28_选择性编译.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="28_选择性编译_.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
     <ClCompile Include="case_max.c">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="case_min.c">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="25_不带参数宏.c">
+    <ClCompile Include="max.c">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="27_选择性编译.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="26_带参数宏.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="28_选择性编译.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="28_case_fun.c">
+    <ClCompile Include="min.c">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="函数的声明.h">
+    <ClInclude Include="19_静态全局变量.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="20_静态全局变量.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="28_case_fun.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="28_chooise_.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="28_选择性编译.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="case_max.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="case_min.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="max.h">
@@ -128,28 +149,16 @@
     <ClInclude Include="min.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="19_静态全局变量.h">
+    <ClInclude Include="函数的声明.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="20_静态全局变量.h">
+    <ClInclude Include="内部函数与外部函数.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="普通全局变量.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="普通全局变量_分文件.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="内部函数与外部函数.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="case_min.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="case_max.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="28_case_fun.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

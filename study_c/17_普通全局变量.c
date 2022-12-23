@@ -19,7 +19,7 @@ int main17()
 	printf("global int number: %d\n", number);
 	number = 200;
 	funce();				// 文件内部使用文件全局变量
-	fun();					// 外部文件函数使用全局变量
+	other_fun();					// 外部文件函数使用全局变量
 	extern_fun(number);		// 外部文件函数使用内部的全局变量
 	return 0;
 }
