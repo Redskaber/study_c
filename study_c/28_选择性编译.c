@@ -47,7 +47,7 @@
 
 #define Macro 1
 #define case_w 0
-int main()
+int main28()
 {
 	#if (Macro) && (case_w)
 		printf("if");

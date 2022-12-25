@@ -49,22 +49,25 @@
     <ClCompile Include="27_选择性编译.c" />
     <ClCompile Include="28_case_fun.c" />
     <ClCompile Include="28_选择性编译.c" />
-    <ClCompile Include="28_选择性编译_.c" />
+    <ClCompile Include="29_静态库的制作.c" />
+    <ClCompile Include="30_动态库的制作.c" />
+    <ClCompile Include="31_指定的定义.c" />
+    <ClCompile Include="32_指针可变量的关系.c" />
     <ClCompile Include="case_max.c" />
     <ClCompile Include="case_min.c" />
     <ClCompile Include="max.c" />
     <ClCompile Include="min.c" />
+    <ClCompile Include="mylib.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="19_静态全局变量.h" />
     <ClInclude Include="20_静态全局变量.h" />
     <ClInclude Include="28_case_fun.h" />
-    <ClInclude Include="28_chooise_.h" />
-    <ClInclude Include="28_选择性编译.h" />
     <ClInclude Include="case_max.h" />
     <ClInclude Include="case_min.h" />
     <ClInclude Include="max.h" />
     <ClInclude Include="min.h" />
+    <ClInclude Include="mylib.h" />
     <ClInclude Include="内部函数与外部函数.h" />
     <ClInclude Include="函数的声明.h" />
     <ClInclude Include="普通全局变量.h" />
