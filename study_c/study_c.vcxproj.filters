@@ -132,6 +132,12 @@
     <ClCompile Include="32_指针可变量的关系.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="33_指针和数组元素之间的关系.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="34_指针的运算.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="19_静态全局变量.h">

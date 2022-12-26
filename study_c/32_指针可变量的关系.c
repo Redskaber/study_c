@@ -23,7 +23,7 @@ void inter_change_val(int *pointer1, int * pointer2);
 void pointer_transform();
 void pointer_incre();
 
-int main()
+int main32()
 {
 	int* p1, * p2, a = 100, b = 200;
 	p1 = &a;

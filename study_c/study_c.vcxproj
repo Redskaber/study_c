@@ -53,6 +53,8 @@
     <ClCompile Include="30_动态库的制作.c" />
     <ClCompile Include="31_指定的定义.c" />
     <ClCompile Include="32_指针可变量的关系.c" />
+    <ClCompile Include="33_指针和数组元素之间的关系.c" />
+    <ClCompile Include="34_指针的运算.c" />
     <ClCompile Include="case_max.c" />
     <ClCompile Include="case_min.c" />
     <ClCompile Include="max.c" />
