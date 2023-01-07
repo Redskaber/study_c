@@ -55,6 +55,10 @@
     <ClCompile Include="32_指针可变量的关系.c" />
     <ClCompile Include="33_指针和数组元素之间的关系.c" />
     <ClCompile Include="34_指针的运算.c" />
+    <ClCompile Include="35_指针数组.c" />
+    <ClCompile Include="36_指针的指针.c" />
+    <ClCompile Include="37_字符串与指针.c" />
+    <ClCompile Include="38_数组指针.c" />
     <ClCompile Include="case_max.c" />
     <ClCompile Include="case_min.c" />
     <ClCompile Include="max.c" />
@@ -159,7 +163,7 @@
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
     </ClCompile>
     <Link>

@@ -138,6 +138,18 @@
     <ClCompile Include="34_指针的运算.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="35_指针数组.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="36_指针的指针.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="37_字符串与指针.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="38_数组指针.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="19_静态全局变量.h">
