@@ -15,7 +15,7 @@ void modify_more_array(int(*p)[3], int x, int y)
 }
 void more_arrays_case();
 
-int main()
+int main38()
 {
     int array[2][3] = {
         {1,2,3},

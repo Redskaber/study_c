@@ -32,7 +32,7 @@ int main14()
 {
 	char ch;
 	char random_string[51] = "";		// 注意：这里的长度需要在原始长度上加1，原因是：末尾\0占用一个，并表示字符组结束符。
-	long late_time;
+	long late_time=NULL;
 	while(1)
 	{	
 		system("cls"); // 每次重新进入都清空控制台

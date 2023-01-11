@@ -150,6 +150,45 @@
     <ClCompile Include="38_数组指针.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\study_c\39_数组名字取地址.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\study_c\40_数组名字和指针变量的区别.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\study_c\42_数组名取※号.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\study_c\43_指针作为函数参数传递.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="44_指针作为函数的返回值.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="45_函数指针的定义与使用.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="46_调用函数的方法.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="47_函数指针数组.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="48_特殊的指针.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="49_main函数传参数.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="50_动态申请内存与释放内存.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="51_动态申请内存malloc_calloc_realloc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pointer_action_fun_args_and_handle.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="19_静态全局变量.h">
