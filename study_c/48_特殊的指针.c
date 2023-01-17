@@ -6,7 +6,7 @@
 		2.NULL		指针初始化
 */
 
-void* memset(void* s, int c, size_t n) 
+void* case_memset(void* s, int c, size_t n) 
 {
 	/*
 		将传入的数组的前 n 个字节初始化为c;

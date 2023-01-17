@@ -189,6 +189,45 @@
     <ClCompile Include="pointer_action_fun_args_and_handle.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="52_测字符串长度函数.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="53_字符串拷贝函数.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="54_字符串追加函数.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="55_字符串比较函数.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="56_字符查找函数.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="57_字符串匹配函数.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="58_空间设定函数.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="59_字符串转换数值.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="60_字符串切割函数.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="61_格式化字符串操作函数.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="62_sscanf高级用法_跳过数据.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="63_sscanf高级用法_读指定宽度的数据.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="64_sscanf_高级用法_支持集合操作_只支持获取字符串_贪婪匹配.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="19_静态全局变量.h">

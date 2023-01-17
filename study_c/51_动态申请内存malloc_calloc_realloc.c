@@ -68,7 +68,7 @@ case_realloc_explain() {
 	printf("array_calloc:%p\n", array_calloc);
 }
 
-int main()
+int main51()
 {
 	char* array_malloc;
 	char* array_calloc;
