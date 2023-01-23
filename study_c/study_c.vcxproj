@@ -84,6 +84,11 @@
     <ClCompile Include="62_sscanf高级用法_跳过数据.c" />
     <ClCompile Include="63_sscanf高级用法_读指定宽度的数据.c" />
     <ClCompile Include="64_sscanf_高级用法_支持集合操作_只支持获取字符串_贪婪匹配.c" />
+    <ClCompile Include="65_修饰只读变量_const.c" />
+    <ClCompile Include="66_只读修饰符_const_修饰指针.c" />
+    <ClCompile Include="67_sscanf高级用法_练习.c" />
+    <ClCompile Include="68_结构体的定义与结构体变量的定义与使用.c" />
+    <ClCompile Include="69_结构体相互赋值与结构体数组的定义_赋值_使用.c" />
     <ClCompile Include="case_max.c" />
     <ClCompile Include="case_min.c" />
     <ClCompile Include="max.c" />
@@ -95,6 +100,7 @@
     <ClInclude Include="19_静态全局变量.h" />
     <ClInclude Include="20_静态全局变量.h" />
     <ClInclude Include="28_case_fun.h" />
+    <ClInclude Include="68_结构体的定义与结构体变量的定义与使用.h" />
     <ClInclude Include="case_max.h" />
     <ClInclude Include="case_min.h" />
     <ClInclude Include="max.h" />

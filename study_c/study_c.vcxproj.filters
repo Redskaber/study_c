@@ -228,6 +228,21 @@
     <ClCompile Include="64_sscanf_高级用法_支持集合操作_只支持获取字符串_贪婪匹配.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="65_修饰只读变量_const.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="66_只读修饰符_const_修饰指针.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="67_sscanf高级用法_练习.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="68_结构体的定义与结构体变量的定义与使用.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="69_结构体相互赋值与结构体数组的定义_赋值_使用.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="19_静态全局变量.h">
@@ -264,6 +279,9 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="mylib.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="68_结构体的定义与结构体变量的定义与使用.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

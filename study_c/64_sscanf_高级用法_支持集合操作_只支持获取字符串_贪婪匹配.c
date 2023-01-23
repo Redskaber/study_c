@@ -43,7 +43,7 @@ void use_include_not_Reget()
 
 }
 
-int main()
+int main64()
 {
 	use_include_Reget();
 	use_include_not_Reget();
