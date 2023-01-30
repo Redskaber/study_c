@@ -1,4 +1,6 @@
 #include<stdio.h>
+#pragma warning(disable:4996)		// x86 unsafe warning
+
 /*
 sccanf高级用法
 	3.支持集合操作: 只支持获取字符串 （贪婪匹配）

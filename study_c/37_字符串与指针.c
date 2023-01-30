@@ -1,6 +1,8 @@
 #include<stdio.h>
 #include<string.h>
 #include<stdlib.h>
+#pragma warning(disable:4996)		// x86 unsafe warning
+
 /*
 	字符串的概念
 		字符串是一块连续的存储空间数据。

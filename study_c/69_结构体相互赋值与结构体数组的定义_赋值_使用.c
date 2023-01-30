@@ -29,24 +29,6 @@ typedef struct {
 } EDU;
 
 
-EDU* struct_array_define_assignment()
-{
-	/*
-		define struct type
-	*/
-	EDU struct_array[3] = {
-		{"tom",21},
-		{"alex",22},
-		{"jane",23}
-	};
-	printf("struct_array=%p\n",struct_array);
-	printf("struct_array=%p\n",struct_array[0]);
-	printf("struct_array=%p\n",struct_array[1]);
-	printf("struct_array=%p\n",struct_array[2]);
-	printf("struct_array[0].name=%s\n",struct_array[0].name);
-	return struct_array;
-}
-
 int main69(int argc, char* argv[])
 {
 
@@ -55,12 +37,6 @@ int main69(int argc, char* argv[])
 	same_struct_type_can_assignment(&bom,&tom);
 	printf("tom.name=%s\n",tom.name);
 	printf("tom.age=%d\n",tom.age);
-
-	EDU* dest = struct_array_define_assignment();
-	printf("dest=%p\n", dest);
-	printf("dest=%s\n", dest[0].name);
-	printf("dest=%s\n", dest[1].name);
-	printf("dest=%s\n", dest[2].name);
 
 	return 0;
 }

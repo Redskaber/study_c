@@ -1,4 +1,6 @@
 #include<stdio.h>
+#pragma warning(disable:4996)		// x86 unsafe warning
+
 /*
 	sccanf的高级用法
 	2.读指定宽度的数据 %[width]s

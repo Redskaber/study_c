@@ -1,4 +1,5 @@
 #include<stdio.h>
+#pragma warning(disable:4996)		// x86 unsafe warning
 
 /*
 	sscanf的高级用法 

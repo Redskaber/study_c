@@ -1,5 +1,5 @@
 #include<stdio.h>
-
+#pragma warning(disable:4996)		// x86 unsafe warning
 /*
 	格式化字符串操作函数
 		1.格式化存入

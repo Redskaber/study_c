@@ -2,6 +2,8 @@
 #include<string.h>
 #include<stdlib.h>
 #include"68_结构体的定义与结构体变量的定义与使用.h"
+#pragma warning(disable:4996)		// x86 unsafe warning
+
 /*
 	结构体的定义
 		struct [结构体名]{

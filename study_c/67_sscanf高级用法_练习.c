@@ -2,6 +2,8 @@
 #include<string.h>
 #include<stdlib.h>
 #include<math.h>
+#pragma warning(disable:4996)		// x86 unsafe warning
+
 /*
 	sccanf的高级用法练习
 		测试：获取指定字符之间的值
