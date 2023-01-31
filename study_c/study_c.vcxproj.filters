@@ -291,6 +291,15 @@
     <ClCompile Include="85_文件操作_练习.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="86_错误处理_errno_perror_strerror.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="87_递归操作.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="88_变长参数的使用.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="19_静态全局变量.h">

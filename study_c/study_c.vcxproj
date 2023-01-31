@@ -105,6 +105,9 @@
     <ClCompile Include="83_文件操作_文件的多行读写_fwrite_fread.c" />
     <ClCompile Include="84_文件操作_文件读写函数.c" />
     <ClCompile Include="85_文件操作_练习.c" />
+    <ClCompile Include="86_错误处理_errno_perror_strerror.c" />
+    <ClCompile Include="87_递归操作.c" />
+    <ClCompile Include="88_变长参数的使用.c" />
     <ClCompile Include="case_max.c" />
     <ClCompile Include="case_min.c" />
     <ClCompile Include="max.c" />

@@ -49,7 +49,7 @@ void Read_MusicWords_to_Memory(const char* _ReadFileName, const char* _ReadMode)
 }
 
 
-int main(int argc, char* argv[])
+int main85(int argc, char* argv[])
 {
 	const char* _ReadFileName = "..\\Files\\¼òµ¥°®.lrc";
 	const char* _ReadMode = "rb";
