@@ -285,6 +285,12 @@
     <ClCompile Include="83_文件操作_文件的多行读写_fwrite_fread.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="84_文件操作_文件读写函数.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="85_文件操作_练习.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="19_静态全局变量.h">

@@ -67,9 +67,10 @@ void command_input_struct_and_read_struct_data(const char* _StuDataFileName, con
 }
 
 
-int main(int argc, char* argv[])
+int main83(int argc, char* argv[])
 {
 	const char* _StuDataFileName = "..\\Files\\StuData.txt";
+	//const char* _StuDataFileName  = "..\\Files\\84case3.txt";
 	const char* _WMode = "wb+";	// window 只能使用 二进制
 	command_input_struct_and_read_struct_data(_StuDataFileName, _WMode);
 	return 0;

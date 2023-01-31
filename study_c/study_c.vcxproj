@@ -103,6 +103,8 @@
     <ClCompile Include="81_文件操作_文件的读取与输出.c" />
     <ClCompile Include="82_文件操作_文件的读取与写入_字符串.c" />
     <ClCompile Include="83_文件操作_文件的多行读写_fwrite_fread.c" />
+    <ClCompile Include="84_文件操作_文件读写函数.c" />
+    <ClCompile Include="85_文件操作_练习.c" />
     <ClCompile Include="case_max.c" />
     <ClCompile Include="case_min.c" />
     <ClCompile Include="max.c" />

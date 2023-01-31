@@ -4,8 +4,8 @@
 /*
 	文件操作
 		文件的读取与输出
-		读取单个字符	fgetc(FILE* stream)
-		输出单个字符	fputc(int c, FILE* stream)
+		读取单个字符	int fgetc(FILE* stream)				s:(int)字符		f:EOF
+		输出单个字符	int fputc(int c, FILE* stream)		s:(ASCLL)字符	f:EOF
 */
 
 void printf_fopen2(FILE* _Stream)
